@@ -65,7 +65,7 @@ disable_undercover() {
 if [ -f $DIR/lock ]; then
 	disable_undercover
 	sleep 1
-	notify-send -i dialog-information 'Desktop settings restored'
+	notify-send -i dialog-information 'OS settings restored'
 else
 	enable_undercover
 fi
